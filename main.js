@@ -2,14 +2,14 @@ const matrix = require('./utils.js');
 const utils = require('./matrix.js');
 
 let matrix1 = [
-    [1, 2, 1],
-    [0, 4, 0],
-    [2, 3, 4]
+    [31, 42, 45],
+    [23, 27, 85],
+    [0, 34, 42]
 ];
 let matrix2 = [
-    [1, 2, 1],
-    [3, 1, 5],
-    [2, 3, 4]
+    [85, 25, 34],
+    [34, 64, 75],
+    [75, 67, 58]
 ];
 
-utils.printMatrix(matrix.multiply(matrix2, matrix1));
+utils.printMatrix(matrix.multiply(matrix1, matrix2));

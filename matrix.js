@@ -5,7 +5,7 @@ module.exports = {
             for (let j = 0; j < matrix[0].length; j++) {
                 row += '' + matrix[i][j] + ' ';
             }
-            console.log('[ ' + row + ' ]');
+            console.log(row);
         }
     }
-}
+};
