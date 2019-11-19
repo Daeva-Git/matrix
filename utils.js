@@ -1,4 +1,4 @@
-function multiply(m1, m2) {
+function multiplyMatrix(m1, m2) {
     let row = m1[0].length;
     if (m2.length == row) {
         let result = [];
@@ -17,5 +17,5 @@ function multiply(m1, m2) {
     } else return null;
 }
 module.exports = {
-    multiply
+    multiplyMatrix
 }
