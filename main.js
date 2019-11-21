@@ -1,5 +1,4 @@
-const utils = require('./utils.js');
-const matrix = require('./matrix.js');
+const matrix = require('./utils.js');
 
 let matrix1 = [
     [31, 42, 45],
@@ -12,4 +11,4 @@ let matrix2 = [
     [75, 67, 58]
 ];
 
-matrix.print(utils.multiplyMatrix(matrix1, matrix2));
+matrix.print(matrix.multiply(matrix1, matrix2));
